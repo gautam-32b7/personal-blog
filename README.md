@@ -19,3 +19,23 @@ A REST API for a personal blogging platform built with FastAPI. This project all
 ### 🗄️ Database Design
 
 ![database design](./screenshots/database_design.png)
+
+### 📦 Installation
+Clone the repository:
+
+`git clone https://github.com/gautam-32b7/personal-blog.git`
+
+Create virtual environment:
+
+`python -m venv .venv`
+
+Activate virtual environment:
+
+`.venv\Scripts\activate`
+
+Install dependencies:
+
+`pip install -r requirements.txt`
+
+### 🏃‍♂️‍➡️ Run the application
+`fastapi dev main.py`
