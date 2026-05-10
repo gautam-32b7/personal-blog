@@ -39,3 +39,10 @@ Install dependencies:
 
 ### 🏃‍♂️‍➡️ Run the application
 `fastapi dev main.py`
+
+### 🗒️ API Documentation
+FastAPI automatically generates API documentation.
+
+- Swagger UI: `/docs`
+
+### 📡 API Endpoints
