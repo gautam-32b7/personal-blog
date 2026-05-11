@@ -46,3 +46,24 @@ FastAPI automatically generates API documentation.
 - Swagger UI: `/docs`
 
 ### 📡 API Endpoints
+
+#### Authentication
+| Method | Endpoint | Description     |
+|--------|----------|-----------------|
+| POST   | /register| Register a user |
+| POST   | /login   | Login a user    |
+
+#### Blogs
+| Method | Endpoint        | Access    |
+|--------|-----------------|-----------|
+| GET   | /blogs           | Protected |
+| GET   | /blogs/{blog_id} | Protected |
+| POST  | /blogs           | Protected |
+| PUT   | /blogs/{blog_id} | Protected |
+| DELETE| /bllogs/{blog_id}| Protected |
+
+#### Guests
+| Method | Endpoint   | Description     |
+|--------|------------|-----------------|
+| GET    | /          | Get all blogs   |
+| GET    | /{blog_id} | Get a blog      |
